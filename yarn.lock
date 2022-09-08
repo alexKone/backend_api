@@ -1517,6 +1517,15 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
+"@notum-cz/strapi-plugin-content-versioning@^0.4.4":
+  version "0.4.4"
+  resolved "https://registry.yarnpkg.com/@notum-cz/strapi-plugin-content-versioning/-/strapi-plugin-content-versioning-0.4.4.tgz#cf1f844a47c203d3266534be6827aff894d143db"
+  integrity sha512-xJOyuayTKv6BO0Fd/e3601RUCZ0z1HCeZvrovvKMypYa6L0b7StP/ITSitJ4FL/Dc6aAKCeOPDgEs2YQHSBIVw==
+  dependencies:
+    "@strapi/utils" "^4.0.0"
+    lodash "^4.17.21"
+    uuid "^8.3.2"
+
 "@pmmmwh/react-refresh-webpack-plugin@0.5.7":
   version "0.5.7"
   resolved "https://registry.yarnpkg.com/@pmmmwh/react-refresh-webpack-plugin/-/react-refresh-webpack-plugin-0.5.7.tgz#58f8217ba70069cc6a73f5d7e05e85b458c150e2"
@@ -2105,7 +2114,7 @@
     prettier "2.7.1"
     typescript "4.6.2"
 
-"@strapi/utils@4.3.8":
+"@strapi/utils@4.3.8", "@strapi/utils@^4.0.0":
   version "4.3.8"
   resolved "https://registry.yarnpkg.com/@strapi/utils/-/utils-4.3.8.tgz#10212a2deba66be85aabc3214f9ed5eb945cfed5"
   integrity sha512-Ckgd3B+gOLRXyuAt2hFiXQQ7nay5UtsqAcy8On25gvsidz+5LK70k+afXG9A02Hg6pNeNU3goU/Ah3gpRho7fg==
