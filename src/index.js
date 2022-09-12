@@ -17,6 +17,8 @@ module.exports = {
           definition(t) {
             t.string('gender')
             t.date('birthdate')
+            t.string('firstname')
+            t.string('lastname')
           }
         }),
         nexus.extendType({

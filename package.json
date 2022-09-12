@@ -9,8 +9,11 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@types/stripe": "^8.0.417"
+  },
   "dependencies": {
+    "@artcoded/strapi-plugin-github-projects": "^1.0.5",
     "@notum-cz/strapi-plugin-content-versioning": "^0.4.4",
     "@strapi/plugin-graphql": "^4.3.8",
     "@strapi/plugin-i18n": "4.3.8",
@@ -20,7 +23,8 @@
     "mysql": "^2.18.1",
     "strapi-plugin-generate-data": "^1.0.16",
     "strapi-plugin-vercel-deploy": "^1.3.1",
-    "strapi-stripe": "^2.5.1"
+    "strapi-stripe": "^2.5.1",
+    "stripe": "^10.8.0"
   },
   "author": {
     "name": "A Strapi developer"
