@@ -1,6 +1,5 @@
 module.exports = {
-  routes: [
-    {
+  routes: [{
       method: 'GET',
       path: '/stripe/products',
       handler: 'stripe.getProducts',
@@ -17,7 +16,8 @@ module.exports = {
         policies: [],
         middlewares: [],
       },
-    },{
+    },
+    {
       method: 'POST',
       path: '/stripe/create-checkout-session',
       handler: 'stripe.createCheckoutSession',
@@ -25,7 +25,8 @@ module.exports = {
         policies: [],
         middlewares: [],
       },
-    },{
+    },
+    {
       method: 'POST',
       path: '/stripe/create-portal-session',
       handler: 'stripe.createPortalSession',
@@ -34,5 +35,10 @@ module.exports = {
         middlewares: [],
       },
     },
+    {
+      method: 'POST',
+      path: '/stripe/webhook',
+      handler: 'stripe.webhook'
+    }
   ],
 };
